@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<meta charset="utf-8" lang="es">
+	<title></title>
+</head>
+<body>
+	<form action="form.html" action="get"> <!--Atributos basicos de form, method como va a viajar la info (los attr mas comunes son post/get), action dice a donde -->
+		<div>
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" minlength="" maxlength="">
+		</div>
+		
+		<div>
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido" id="apellido" required>
+		</div>
+		
+		<div>
+			<label for="edad">edad</label>
+			<input type="number" name="edad" step="2" min="18" max="100" value="18">
+		</div>
+		
+		<div>
+			<label for="email">Email</label>
+			<input type="email" name="email" disabled="">
+		</div>
+		
+		<div>
+			<label for="Pass">Password</label>
+			<input type="password" name="pass">
+		</div>
+
+		<div>
+			<button type="submit" class="btn btn-primary">Send</button> <!--type tiene tres tipos de botones, submit, reset y button .btn
+.btn-default
+.btn-primary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-link-->
+			<button type="reset" class="btn btn-danger">Erase</button>
+			<button type="button" class="btn btn-default">Button</button>
+			<button type="submit" class="btn btn-info">Info</button>
+			<button type="submit" class="btn btn-warning">Warning</button>
+			<button type="submit" class="btn btn-link">Link</button>
+
+		</div>
+
+		<div>
+			<label for="mensaje">Mensaje</label>
+			<textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+		</div>
+
+		<div>
+			<label for="terminosycondiciones">
+				acepta terminos y condiciones
+			</label>
+			<input type="checkbox" id="terminosycondiciones" checked="true">
+		</div>
+
+		<div>
+			<label for="terminosycondiciones">
+				acepta terminos y condiciones
+			</label>
+			<input type="radio" id="terminosycondiciones-si" name="terminosycondiciones">
+			<label for="terminosycondiciones-si">Si</label>
+
+			<input type="radio" id="terminosycondiciones-no" name="terminosycondiciones">
+			<label for="terminosycondiciones-no">No</label>
+		</div>
+
+		<div>
+			<input type="file" name="foto">
+		</div>
+
+		<div>
+			<label for="algoqueseleccione">Selecciona una opcion</label>
+			<select name="algoqueseleccione">
+				<option disabled="true" selected="true">Selecciona algo</option>
+				<option>Opción 1</option>
+				<option>Opción 2</option>
+				<option>Opción 3</option>
+				<option>Opción 4</option>
+				<option>Opción 5</option>
+			</select>
+		</div>
+	</form>
+</body>
+</html>
