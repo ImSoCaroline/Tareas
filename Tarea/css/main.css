@@ -1,0 +1,116 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+a:link {
+	color: #FFF700;
+}
+
+a:visited {
+	color: #FFF700;
+}
+
+a:hover {
+	color: #E80C7A;
+}
+
+a:active {
+	color: #FFF700;
+}
+
+.header {
+	display: block;
+	text-align: center;
+}
+
+.header a {
+	display: inline-block;
+	margin: 0 2%;
+	padding: 3% 2%;
+}
+
+h1 {
+	margin: 0;
+	padding: 2% 5%;
+	display: inline-block;
+	font-family: 'Indie Flower', cursive;
+	font-size: 100px;
+	line-height: 50px;
+	width: 100%;
+	}
+
+#outer-body {
+	width: 100%;
+	margin: auto;
+}
+
+#inner-body {
+	width: 70%;
+	display: inline;
+	float: left;
+}
+
+.entry {
+	text-align: center;
+	align-self: left;
+}
+
+.entry h3 {
+	font-family: 'Indie Flower', cursive;
+}
+
+.entry img{
+	border: 1px dashed #E80C7A;
+}
+
+.entry h3, img, p, a {
+	margin-bottom: 4%;
+}
+
+#sidebar {
+	text-align: center;
+	display: inline;
+	float: left;
+	width: 29%;
+}
+
+.prof {
+	padding-bottom: 20%;
+}
+
+.prof img {
+ 	padding-bottom: 3%;
+ }
+
+.more {
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+
+.more li {
+ 	text-align: left;
+ 	padding-top: 5%;
+ }
+
+ .footer {
+ 	display: block;
+ 	float: left;
+ 	width: 100%;
+ 	text-align: center;
+ }
+
+ .thumb a {
+ 	display: inline;
+ 	margin: -10px;
+ 	padding: -10px;
+ }
+
+ .thumb img {
+ 	width: 200px;
+ 	margin-top: 5%;
+ }
+
+ .foot {
+ 	margin-top: 5%;
+ }
