@@ -1,0 +1,128 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	margin: 0 auto;
+	font-size: 130px;
+	padding-top: 200px;
+	opacity: 0.3;
+	font-family: 'Six Caps', sans-serif;
+}
+
+h3 {
+	position: absolute;
+	width: 150px;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 25px;
+	opacity: 0;
+	font-family: 'Dawning of a New Day', cursive;
+}
+
+h3:hover {
+	background: #9E9E9E;
+	opacity: 0.6;
+	color: #000;
+	border-radius: 100%;
+}
+
+#cas1 h3, #cas7 h3, #cas8 h3, #cas9 h3 {
+	margin-top: 75px;
+}
+
+#cas3 h3, #cas4 h3, #cas5 h3 {
+	margin-top: 50px;
+}
+
+#container {
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#cas1 {
+	margin: -2px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/1.png);
+	background-position: center;
+}
+
+#cas2 {
+	margin: -2px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/2.png);
+	background-position: center;
+}
+
+#cas3 {
+	margin: -2px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/3.png);
+	background-position: 20% 40%;
+}
+
+#cas4 {
+	margin: -2px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/4.png);
+	background-position: center;
+}
+
+#cas5 {
+	margin: -2px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/5.png);
+	background-position: center;
+}
+
+#cas6 {
+	margin: -2px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/6.png);
+	background-position: center;
+}
+
+#cas7 {
+	margin: -2px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/7.png);
+	background-position: center;
+}
+
+#cas8 {
+	margin: -2px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/8.png);
+	background-position: center;
+}
+
+#cas9 {
+	margin: -2px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/9.png);
+	background-position: center;
+}
