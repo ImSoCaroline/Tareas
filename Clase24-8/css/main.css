@@ -25,8 +25,8 @@ h3 {
 }
 
 h3:hover {
-	background: #9E9E9E;
-	opacity: 0.6;
+	background: #FF9981;
+	opacity: 0.8;
 	color: #000;
 	border-radius: 100%;
 }
@@ -46,83 +46,54 @@ h3:hover {
 	text-align: center;
 }
 
-#cas1 {
+#cas1, #cas2, #cas3, #cas4, #cas5, #cas6, #cas7, #cas8, #cas9 {
 	margin: -2px;
 	display: inline-block;
 	width: 200px;
 	height: 200px;
+}
+
+#cas1 {
 	background-image: url(../img/1.png);
-	background-position: center;
+	background-position: 10% 30%;
 }
 
 #cas2 {
-	margin: -2px;
-	display: inline-block;
-	width: 200px;
-	height: 200px;
 	background-image: url(../img/2.png);
 	background-position: center;
 }
 
 #cas3 {
-	margin: -2px;
-	display: inline-block;
-	width: 200px;
-	height: 200px;
 	background-image: url(../img/3.png);
 	background-position: 20% 40%;
 }
 
 #cas4 {
-	margin: -2px;
-	display: inline-block;
-	width: 200px;
-	height: 200px;
 	background-image: url(../img/4.png);
 	background-position: center;
 }
 
 #cas5 {
-	margin: -2px;
-	display: inline-block;
-	width: 200px;
-	height: 200px;
 	background-image: url(../img/5.png);
 	background-position: center;
 }
 
 #cas6 {
-	margin: -2px;
-	display: inline-block;
-	width: 200px;
-	height: 200px;
 	background-image: url(../img/6.png);
 	background-position: center;
 }
 
 #cas7 {
-	margin: -2px;
-	display: inline-block;
-	width: 200px;
-	height: 200px;
 	background-image: url(../img/7.png);
 	background-position: center;
 }
 
 #cas8 {
-	margin: -2px;
-	display: inline-block;
-	width: 200px;
-	height: 200px;
 	background-image: url(../img/8.png);
 	background-position: center;
 }
 
 #cas9 {
-	margin: -2px;
-	display: inline-block;
-	width: 200px;
-	height: 200px;
 	background-image: url(../img/9.png);
 	background-position: center;
 }
