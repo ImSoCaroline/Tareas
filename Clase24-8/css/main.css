@@ -53,6 +53,10 @@ h3:hover {
 	height: 200px;
 }
 
+#cas2, #cas4, #cas5, #cas6, #cas7, #cas8, #cas9 {
+	background-position: center;
+}
+
 #cas1 {
 	background-image: url(../img/1.png);
 	background-position: 10% 30%;
@@ -60,7 +64,6 @@ h3:hover {
 
 #cas2 {
 	background-image: url(../img/2.png);
-	background-position: center;
 }
 
 #cas3 {
@@ -70,30 +73,24 @@ h3:hover {
 
 #cas4 {
 	background-image: url(../img/4.png);
-	background-position: center;
 }
 
 #cas5 {
 	background-image: url(../img/5.png);
-	background-position: center;
 }
 
 #cas6 {
 	background-image: url(../img/6.png);
-	background-position: center;
 }
 
 #cas7 {
 	background-image: url(../img/7.png);
-	background-position: center;
 }
 
 #cas8 {
 	background-image: url(../img/8.png);
-	background-position: center;
 }
 
 #cas9 {
 	background-image: url(../img/9.png);
-	background-position: center;
 }
