@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#cont {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+#img {
+	display: inline-block;
+	width: 14%;
+}
+
+#lis {
+	display: inline-block;
+	width: 76%;
+}
+
+ul li {
+	display: inline-block;
+	margin: auto;
+	width: 20%;
+}

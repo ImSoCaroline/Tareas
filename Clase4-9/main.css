@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #000;
+	position: relative;
+	color: #fff;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	border: 1px solid #000;
+}
+
+.sub {
+	position: absolute;
+	color: #000;
+	display: none;
+	margin-left: -75px;
+}
+
+.sub ul {
+	display: inline-block;
+}
+
+.sub li {
+	display: block;
+}
+
+.outsub:hover .sub{
+	display: inline-block;
+	position: absolute;
+}

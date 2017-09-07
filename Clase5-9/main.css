@@ -1,0 +1,16 @@
+.horizontal{
+	background: violet;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.vertical{
+	margin: 0 auto;
+	vertical-align: 50%;
+	text-align: center;
+	background: pink;
+	width: 60%;
+	height: 500px;
+	line-height: 60px;
+}
