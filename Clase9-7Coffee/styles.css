@@ -56,3 +56,15 @@ aside {
 aside img {
 	width: 50%;
 }
+
+@media screen and (max-width: 600px) {
+
+  .menu {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: column;
+  }

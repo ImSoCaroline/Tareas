@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #000 url(../img/fondo.jpg) ;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	margin: 0 auto;
+	width:70%;
+}
+
+/******************HEADER***************************/
+
+header{
+	background:rgba(255,255,255,0.5);
+	padding: 50px 0;
+}
+
+div .logo {
+	padding-left: 30px;
+}
+
+header .menu a{
+	text-decoration: none;
+	font-size: 18px;
+	color:black;
+	margin-right: 30px;
+}
+
+header .menu a:hover{
+	font-weight: bold;
+}
+
+nav {
+	margin-top: 30px;
+}
+
+/*******************PRINCIPAL***************************/
+
+.principal{
+	background: #82E8B7;
+	padding: 20px;
+}
+
+.principal article .banner{
+	margin-bottom: 20px;
+}
+
+
+.principal article .banner img{
+	width: 95%;
+	vertical-align: top;
+}
+
+
+.principal article h1{
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-size: 32px;
+} 
+
+.principal article p{
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 27px;
+	text-align: justify;
+}
+
+aside{
+	background:grey;
+	padding: 20px;
+}
+
+aside .caja{
+	padding:80px 0;
+	text-align: center;
+	border:3px dashed black;
+	margin-bottom: 25px;
+	margin-top: 35px;
+}
+
+
+/*******************FOOTER***************************/
+
+footer{
+	background:rgba(255,255,255,0.5);
+	padding: 30px 10px;
+	font-size: 16px;
+}
+
+footer .redes a{
+	text-decoration: underline;
+	color:black;
+	margin-left: 30px;
+}
+
+footer .redes a:hover{
+	text-decoration: none;
+}
