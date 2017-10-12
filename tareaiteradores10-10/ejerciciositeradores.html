@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tareas</title>
+</head>
+<body>
+	<script>
+		/*
+		var numeros;
+		var array = [];
+
+		numeros=prompt("Ingrese un valor");
+
+		for (var i=1;i<=numeros;i++){
+			array = i;
+			console.log(array);
+		}
+
+		var numeros;
+		var array = [];
+
+		numeros=prompt("Ingrese un valor");
+
+		for (var i=1;i<numeros;i++){
+			array = i;
+			if(i%2==1){
+				array = 0;
+			}else{
+				array = i;
+			}
+			console.log(array);
+		}
+
+		var x = [10,24,36,7,98,11,14,20];
+		var max = 0;
+		var maxPosition;
+
+		for (var i = 0; i < x.length-1; i++) {
+		 if (x[i] > max) {
+		  max = x[i];
+		  maxPosition = i;
+		 }
+		}
+
+		console.log("Mi array es ", x);
+		console.log("El valor máximo del array es: ",max);
+		console.log("Y su posición es", maxPosition);
+		*/
+
+		var x = [10,24,36,7,98,11,14,20,98,14,10];
+		var max = 0;
+		var rep = 0;
+
+		for(var i=0;i<x.length-1;i++){
+			if (x[i]>max){
+				max=x[i];
+				if (max>max) {
+					rep=0;
+				}else{
+					rep++;
+				}
+			}
+		}
+
+		console.log("El mayor valor es: "+max+" y se repite "+rep+" veces.");
+
+
+	</script>
+</body>
+</html>
