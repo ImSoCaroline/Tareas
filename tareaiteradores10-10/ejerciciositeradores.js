@@ -1,4 +1,4 @@
-		
+	
 /*
 		//Ejercicio 1
 		var numeros;
@@ -66,7 +66,7 @@
 		}
 
 		console.log("El mayor valor es: "+max+" y se repite "+rep+" veces.");
-
+*/
 		//Ejercicio 6
 
 		var x=["a","l","f","a"];
@@ -105,10 +105,9 @@
 				}
 			}
 		}
-
+/*
 
 		console.log("La cantidad de letras repetidas es: "+cont);
-*/
 
 		var datos1=["Fido","Gomez",26,15000.78,true];
 		var datos2=["Gervasio","Fernandez",32,28.550,false];
@@ -116,11 +115,19 @@
 
 
 		for(i=0;i<datos1.length;i++){
-			if(datos1[i].isInteger() && datos2[i].isInteger()){
+			if(Number.isInteger(datos1[i]) && Number.isInteger(datos2[i])){
 				if(datos1[i]>datos2[i]){
 					console.log("Fido es mayor");
 				}else{
 					console.log("Gervasio es mayor");
 				}
+			}else if (typeof(datos1[i])=="boolean"&& typeof(datos2[i]== "boolean")) {
+				if(datos1[i]){
+					console.log("Fido esta casado");
+				}
+				if(datos2[i]){
+					console.log("Gervasio esta casado");
+				}
 			}
 		}
+*/
