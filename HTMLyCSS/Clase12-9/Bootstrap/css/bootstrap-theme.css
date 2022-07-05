@@ -48,7 +48,7 @@ fieldset[disabled] .btn-warning,
 fieldset[disabled] .btn-danger {
   -webkit-box-shadow: none;
           box-shadow: none;
-}
+} 
 .btn-default .badge,
 .btn-primary .badge,
 .btn-success .badge,
